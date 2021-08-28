@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <studio.h>
+#include <stdio.h>
 
 /**
  *tyle doc for function main goes there 
