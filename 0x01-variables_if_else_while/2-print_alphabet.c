@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <studio.h>
+
+/**
+ *tyle doc for function main goes there 
+ */
+int main(void)
+{
+  char ch = 'a';
+
+  while(ch <= 'z')
+    {
+      putchar(ch);
+      ch++;
+    } 
+return (0);
+    }
