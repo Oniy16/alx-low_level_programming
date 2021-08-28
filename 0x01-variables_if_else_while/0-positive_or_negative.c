@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/** main - for function main goes there */
+/** 
+ * main - for function main goes there 
+ */
 int main(void)
 {
 	int n;
