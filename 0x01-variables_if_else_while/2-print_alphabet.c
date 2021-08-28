@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- *tyle doc for function main goes there 
+ * main - main data
+ * Description: This is a function that print alpabet in lower case using putchar 
  */
 int main(void)
 {
