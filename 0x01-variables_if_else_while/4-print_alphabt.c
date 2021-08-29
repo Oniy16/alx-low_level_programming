@@ -8,9 +8,11 @@ int main(void)
 	char ch = 'a';
 
 	while (ch <= 'z')
+	  {
 	  purchar(ch);
-	if(ch == q || ch == e)
-	  continue;  
+	if(ch == 'q' || ch == 'e')
+	  continue;
+	  }
 	putchar('\n');
 	return (0);
 }
