@@ -13,8 +13,8 @@ int main(void)
 
   for (ch, ch <= 'z',ch++)
     putchar(ch);
-  for (cH, cH <= 'z',cH++)
-    putchar(ch);
+  for (cH, cH <= 'Z',cH++)
+    putchar(cH);
   putchar('\n');
   return (0);
 }
