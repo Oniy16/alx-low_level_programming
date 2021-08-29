@@ -1,19 +1,25 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main -  goes there
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	char ch = 'a';
 
 	while (ch <= 'z')
-	  {
+	{
 	if(ch == 'q' || ch == 'e')
-	  continue;
+	{
+		ch = ch + 1;
+		continue;
+	}
 	putchar(ch);
-          ch++;
-	  }
+	ch++;
+	}
 	putchar('\n');
 	return (0);
 }
