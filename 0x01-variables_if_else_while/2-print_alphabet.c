@@ -3,18 +3,17 @@
 
 /**
  * main - main data
- * Description: This is a function that print alpabet in lower case 
- * using putchar 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-  char ch = 'a';
+	char ch = 'a';
 
-  while (ch <= 'z')
-    {
-      putchar(ch);
-      ch++;
-    }
-  putchar('\n');
-  return (0);
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
 }
