@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - the fun that print number using putchar
+ * main - the fun that print number by using putchar
  * Return: Always 0 (success)
  */
 int main(void)
