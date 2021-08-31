@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
 /**
  * main - for function main goes their
