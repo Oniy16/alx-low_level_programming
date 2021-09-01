@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char word[9] = "Holberton";
+	char word[8] = "Holberton";
 	int x;
 
 	for (x = 0; x < 9; x++)
