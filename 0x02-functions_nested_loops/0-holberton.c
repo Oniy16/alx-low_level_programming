@@ -6,15 +6,13 @@
 
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	 _putchar('b');
-	  _putchar('e');
-	   _putchar('r');
-	    _putchar('t');
-	     _putchar('o');
-	      _putchar('n');
-	      _putchar('\n');
-	      return (0);
+	char word[9] = "Holberton";
+	int x;
+
+	for (x = 0; x < 9; x++)
+	{
+		_putchar(word[x]);
+		_putchar('\n');
+	}
+	return (0);
 }
