@@ -12,7 +12,7 @@ int main(void)
 	for (x = 0; x < 9; x++)
 	{
 		_putchar(word[x]);
-		_putchar('\n');
 	}
+	_putchar('\n');
 	return (0);
 }
