@@ -1,4 +1,6 @@
-#include "main.h"
+#ifndef "main.h"
+#define "main.h"
+#endif "main.h"
 /**
  * main - for function main goes their
  * Return: Always 0 (success)
