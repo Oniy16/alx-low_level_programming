@@ -42,4 +42,7 @@ void print_times_table(int n)
 		value = 0;
 	}
 	return (value);
+		}
+	}
+	}
 }
