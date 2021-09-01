@@ -5,6 +5,7 @@
  */
 
 int main(void)
+	char ch = 'Holberton';
 {
-	_putchar('Holberton');
+	_putchar(ch);
 }
