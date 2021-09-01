@@ -3,7 +3,7 @@
  * print_alphabet_x10 - Check holberton
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
- * Return: Nothing.
+ * Return: thing.
  */
 void print_times_table(int n)
 {
@@ -41,8 +41,8 @@ void print_times_table(int n)
 				_putchar(' ');
 		value = 0;
 	}
-	return (value);
 		}
 	}
 	}
+	return (value);
 }
