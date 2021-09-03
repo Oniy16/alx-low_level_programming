@@ -10,9 +10,6 @@ int main(void)
 {
 	char c;
 
-	if (c < 97)
-		printf("%c: %d\n", c, _isupper(c));
-	else
-		printf("%c: %d\n", c, _isupper(c));
+	printf("%c: %d\n", c, _isupper(c));
 	return (0);
 }
