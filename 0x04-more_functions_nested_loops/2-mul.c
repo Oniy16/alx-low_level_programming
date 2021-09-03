@@ -2,8 +2,8 @@
 
 /**
   * _isdigit - Check if a character is a digit
-  * @x: The number to be checked
-  *
+  * @a: The 1st number to be mul
+  * @b: The 2nd number to be mul
   * Return: 0 for any correct one
   */
 int mul(int a, int b)
