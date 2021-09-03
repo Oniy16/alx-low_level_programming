@@ -1,20 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - check the code.
+ * @x: The number to be check
+ * Return: 0 for none uper case 1 for upper case
  */
-int main(void)
+int _isupper(int x)
 {
-	char c;
-	
-	if ( _isupper(c) == 1)
+
+	if (x >= 65 && x <= 90)
 	{
-		printf("%c: %d\n", c, _isupper(c));
-		return (1);
+		return(1);
 	}
-	else
+
 		return (0);
 }
