@@ -11,7 +11,7 @@ int main(void)
 	char c;
 	if ( _isupper(c) == 1){
 		printf("%c: %d\n", c, _isupper(c));
-		return ( _isupper(c));
+		return (1);
 	}
 	else
 		return (0)
