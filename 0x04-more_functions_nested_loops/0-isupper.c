@@ -9,7 +9,10 @@
 int main(void)
 {
 	char c;
-
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	if ( _isupper(c) == 1){
+		printf("%c: %d\n", c, _isupper(c));
+		return ( _isupper(c));
+	}
+	else
+		return (0)
 }
