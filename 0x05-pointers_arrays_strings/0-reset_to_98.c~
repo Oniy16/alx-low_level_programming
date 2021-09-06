@@ -1,0 +1,6 @@
+#include "main.h"
+
+/**
+ * reset_to_98 - Draws a straight line using the character _.
+ * @n: The number of _ characters to be printed.
+ */
