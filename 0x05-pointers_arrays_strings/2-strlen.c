@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * print_number - Check if a character is a digit
+ * _strlen - Check if a character is a digit
+ * @s: gets the caracter
  */
 int _strlen(char *s)
 {
 	size_t length = 0;
 
-	while (*str++)
+	while (*s++)
 		length++;
 	return (length);
 }
