@@ -3,6 +3,7 @@
 /**
  * _strlen - Check if a character is a digit
  * @s: gets the caracter
+ * return: int value
  */
 int _strlen(char *s)
 {
