@@ -1,1 +1,1 @@
-will be updated wiyh detail
+comming soon
