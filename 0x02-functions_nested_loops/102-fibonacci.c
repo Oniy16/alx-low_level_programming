@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int x = 0, y = 1, count, sum;
+
+	long int x = 0, y = 1, count, sum;
 
 	for (count = 0; count < 50; count++)
 	{
