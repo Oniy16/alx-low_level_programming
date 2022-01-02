@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-
-	unsigned long x = 0, y = 1, count, sum;
+	int count;
+	unsigned long x = 0, y = 1, sum;
 
 	for (count = 0; count < 50; count++)
 	{
