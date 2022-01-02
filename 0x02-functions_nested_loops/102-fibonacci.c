@@ -9,7 +9,7 @@
 int main(void)
 {
 
-	long int x = 0, y = 1, count, sum;
+	unsigned long x = 0, y = 1, count, sum;
 
 	for (count = 0; count < 50; count++)
 	{
