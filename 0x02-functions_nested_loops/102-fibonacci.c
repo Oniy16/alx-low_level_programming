@@ -17,7 +17,7 @@ int main(void)
 
 		x = y;
 		y = sum;
-		printf( "%lu", sum);
+		printf("%lu", sum);
 		if (count != 49)
 			printf(", ");
 		else
