@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Check holberton
- * Description: function uses _putchar function to print
- * alphabet in lowercase 10 times
- * Return: thing.
+ *   print_times_table - Prints the times table of the input,
+ *                     starting with 0.
+ *   @n: The value of the times table to be printed.
  */
 void print_times_table(int n)
 {
