@@ -17,10 +17,10 @@ void print_times_table(int n)
 			{
 				if (x * y < 10)
 				{
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(x * y + '0');
 					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(' ');
 				}
 				else if (x * y > 99)
@@ -33,10 +33,10 @@ void print_times_table(int n)
 				}
 				else
 				{
-					_putchar(' ');
 					_putchar(((x * y) / 10) + '0');
 					_putchar(((x * y) % 10) + '0');
 					_putchar(',');
+					_putchar(' ');
 					_putchar(' ');
 				}
 			}
